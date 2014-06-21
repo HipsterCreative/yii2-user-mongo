@@ -1,9 +1,12 @@
-# Yii2-user [![Build Status](https://travis-ci.org/dektrium/yii2-user.svg?branch=master)](https://travis-ci.org/dektrium/yii2-user) [![Latest Stable Version](https://poser.pugx.org/dektrium/yii2-user/v/stable.png)](https://packagist.org/packages/dektrium/yii2-user) [![Total Downloads](https://poser.pugx.org/dektrium/yii2-user/downloads.png)](https://packagist.org/packages/dektrium/yii2-user)
+# Yii2-user-mongo
+
+This addon was forked from [dektrium/yii2-user](https://github.com/dektrium/yii2-user), based on their version 0.6.0 and their [last June 17th 2014 commit](https://github.com/dektrium/yii2-user/commit/d36b851c8c913db4572faacedfc21b79f93b8834)
 
 Most of web applications provide a way for users to register, log in or reset their forgotten passwords. Rather than
 re-implementing this on each application, you can use Yii2-user which is a flexible user management module for Yii2 that
 handles common tasks such as registration, authentication and password retrieval. Current version includes following features:
 
+* Data lives and breaths in [MongoDB](http://www.mongodb.org/)
 * Registration with an optional confirmation per mail
 * Registration via social networks
 * Password retrieval
@@ -14,6 +17,8 @@ handles common tasks such as registration, authentication and password retrieval
 > **NOTE:** Module is in initial development. Anything may change at any time.
 
 ## Documentation
+
+**Note:** These links are for the dektrium project version, and may represent features we haven't implemented yet.
 
 Yii2-user documentation is available online: [Read the documentation](http://yii2-user.readthedocs.org/en/latest/).
 Installation instructions are located in [installation guide](http://yii2-user.readthedocs.org/en/latest/getting-started/installation.html).
