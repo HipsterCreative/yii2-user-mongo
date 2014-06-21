@@ -10,7 +10,7 @@ return [
     ],
     'extensions' => require(VENDOR_DIR . '/yiisoft/extensions.php'),
     'aliases' => [
-        '@dektrium/user' => realpath(__DIR__. '/../../../'),
+        '@hipstercreative/user' => realpath(__DIR__. '/../../../'),
         '@vendor' => VENDOR_DIR
     ],
     'modules' => [

@@ -24,7 +24,7 @@ class Mailer extends Component
     /**
      * @var string
      */
-    public $viewPath = '@dektrium/user/views/mail';
+    public $viewPath = '@hipstercreative/user/views/mail';
 
     /**
      * @var string|array

@@ -8,4 +8,4 @@ require_once(VENDOR_DIR . '/autoload.php');
 require_once(VENDOR_DIR . '/yiisoft/yii2/Yii.php');
 
 Yii::setAlias('@tests', __DIR__);
-Yii::setAlias('@dektrium/user', realpath(__DIR__ . '..'));
+Yii::setAlias('@hipstercreative/user', realpath(__DIR__ . '..'));

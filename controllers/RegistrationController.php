@@ -96,7 +96,7 @@ class RegistrationController extends Controller
 
         $model = $this->module->manager->createUser(['scenario' => 'connect']);
         if ($model->load($_POST) && $model->create()) {
-            $account->user_id = $model->id;
+            $account->user_id = $model->_id;
             $account->save(false);
             \Yii::$app->user->login($model, $this->module->rememberFor);
             $this->goBack();
