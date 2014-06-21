@@ -86,8 +86,6 @@ class RegistrationController extends Controller
 
     public function actionConnect($account_id)
     {
-    hc_ed('asdasdfasfsdafasfasfasfd');    
-    hc_ed($account_id);
         $account = $this->module->manager->findAccountById($account_id);
 
         if ($account === null || $account->getIsConnected()) {
