@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace dektrium\user;
+namespace hipstercreative\user;
 
 use yii\base\Component;
 
@@ -34,37 +34,37 @@ class ModelManager extends Component
     /**
      * @var string
      */
-    public $userClass = 'dektrium\user\models\User';
+    public $userClass = 'hipstercreative\user\models\User';
 
     /**
      * @var string
      */
-    public $profileClass = 'dektrium\user\models\Profile';
+    public $profileClass = 'hipstercreative\user\models\Profile';
 
     /**
      * @var string
      */
-    public $accountClass = 'dektrium\user\models\Account';
+    public $accountClass = 'hipstercreative\user\models\Account';
 
     /**
      * @var string
      */
-    public $resendFormClass = 'dektrium\user\models\ResendForm';
+    public $resendFormClass = 'hipstercreative\user\models\ResendForm';
 
     /**
      * @var string
      */
-    public $loginFormClass = 'dektrium\user\models\LoginForm';
+    public $loginFormClass = 'hipstercreative\user\models\LoginForm';
 
     /**
      * @var string
      */
-    public $recoveryFormClass = 'dektrium\user\models\RecoveryForm';
+    public $recoveryFormClass = 'hipstercreative\user\models\RecoveryForm';
 
     /**
      * @var string
      */
-    public $recoveryRequestFormClass = 'dektrium\user\models\RecoveryRequestForm';
+    public $recoveryRequestFormClass = 'hipstercreative\user\models\RecoveryRequestForm';
 
     /**
      * Finds a user by id.

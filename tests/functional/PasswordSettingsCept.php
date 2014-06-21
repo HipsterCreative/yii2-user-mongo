@@ -1,7 +1,7 @@
 <?php
 
-use dektrium\user\tests\_pages\PasswordSettingsPage;
-use dektrium\user\tests\_pages\LoginPage;
+use hipstercreative\user\tests\_pages\PasswordSettingsPage;
+use hipstercreative\user\tests\_pages\LoginPage;
 
 $I = new TestGuy($scenario);
 $I->wantTo('ensure that password settings works');

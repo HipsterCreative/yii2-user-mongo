@@ -1,10 +1,10 @@
 <?php
 
-namespace dektrium\user\tests\_fixtures;
+namespace hipstercreative\user\tests\_fixtures;
 
 use yii\test\ActiveFixture;
 
 class ProfileFixture extends ActiveFixture
 {
-    public $modelClass = '\dektrium\user\models\Profile';
+    public $modelClass = '\hipstercreative\user\models\Profile';
 }

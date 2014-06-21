@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace dektrium\user\controllers;
+namespace hipstercreative\user\controllers;
 
 use yii\helpers\Url;
 use yii\web\Controller;
@@ -20,7 +20,7 @@ use yii\authclient\ClientInterface;
 /**
  * Controller that manages user authentication process.
  *
- * @property \dektrium\user\Module $module
+ * @property \hipstercreative\user\Module $module
  *
  * @author Dmitry Erofeev <dmeroff@gmail.com>
  */

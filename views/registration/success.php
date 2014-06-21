@@ -13,7 +13,7 @@ use yii\helpers\Html;
 
 /**
  * @var yii\web\View $this
- * @var dektrium\user\models\User $model
+ * @var hipstercreative\user\models\User $model
  */
 
 $this->title = Yii::$app->getModule('user')->confirmable ?

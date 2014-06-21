@@ -14,7 +14,7 @@ use yii\helpers\Html;
 /**
  * @var yii\web\View $this
  * @var yii\widgets\ActiveForm $form
- * @var dektrium\user\models\Profile $profile
+ * @var hipstercreative\user\models\Profile $profile
  */
 
 $this->title = Yii::t('user', 'Profile settings');

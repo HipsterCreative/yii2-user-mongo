@@ -1,9 +1,9 @@
 <?php
 
-namespace dektrium\user\tests;
+namespace hipstercreative\user\tests;
 
-use dektrium\user\models\ResendForm;
-use dektrium\user\tests\_fixtures\UserFixture;
+use hipstercreative\user\models\ResendForm;
+use hipstercreative\user\tests\_fixtures\UserFixture;
 use yii\codeception\TestCase;
 
 class ResendFormTest extends TestCase

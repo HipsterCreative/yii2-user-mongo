@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace dektrium\user\models;
+namespace hipstercreative\user\models;
 
-use dektrium\user\helpers\ModuleTrait;
+use hipstercreative\user\helpers\ModuleTrait;
 use yii\mongodb\ActiveRecord;
 
 /**
@@ -23,7 +23,7 @@ use yii\mongodb\ActiveRecord;
  * @property string  $data       Json-decoded properties
  * @property User    $user       User that this account is connected for.
  *
- * @property \dektrium\user\Module $module
+ * @property \hipstercreative\user\Module $module
  *
  * @author Dmitry Erofeev <dmeroff@gmail.com>
  */

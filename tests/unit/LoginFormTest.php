@@ -1,10 +1,10 @@
 <?php
 
-namespace dektrium\user\tests;
+namespace hipstercreative\user\tests;
 
 use Codeception\Specify;
-use dektrium\user\models\LoginForm;
-use dektrium\user\tests\_fixtures\UserFixture;
+use hipstercreative\user\models\LoginForm;
+use hipstercreative\user\tests\_fixtures\UserFixture;
 use yii\codeception\TestCase;
 
 class LoginFormTest extends TestCase

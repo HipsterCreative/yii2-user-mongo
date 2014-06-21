@@ -9,20 +9,20 @@
  * file that was distributed with this source code.
  */
 
-namespace dektrium\user\helpers;
+namespace hipstercreative\user\helpers;
 
 /**
- * @property \dektrium\user\Module $module
+ * @property \hipstercreative\user\Module $module
  */
 trait ModuleTrait
 {
     /**
-     * @var null|\dektrium\user\Module
+     * @var null|\hipstercreative\user\Module
      */
     private $_module;
 
     /**
-     * @return null|\dektrium\user\Module
+     * @return null|\hipstercreative\user\Module
      */
     protected function getModule()
     {

@@ -1,7 +1,7 @@
 <?php
 
-use dektrium\user\tests\_pages\CreatePage;
-use dektrium\user\tests\_pages\LoginPage;
+use hipstercreative\user\tests\_pages\CreatePage;
+use hipstercreative\user\tests\_pages\LoginPage;
 
 $I = new TestGuy($scenario);
 $I->wantTo('ensure that user creation works');
@@ -24,6 +24,6 @@ $I->see('toster');
 $I->see('toster@example.com');
 
 Yii::$app->user->logout();
-$I->grabRecord('dektrium\user\models\User', ['email' => 'toster@example.com'])->confirm();
+$I->grabRecord('hipstercreative\user\models\User', ['email' => 'toster@example.com'])->confirm();
 LoginPage::openBy($I)->login('toster@example.com', 'toster');
 $I->see('Logout');

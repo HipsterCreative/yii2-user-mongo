@@ -1,8 +1,8 @@
 <?php
 
-use dektrium\user\tests\_pages\ProfileSettingsPage;
-use dektrium\user\tests\_pages\LoginPage;
-use dektrium\user\models\Profile;
+use hipstercreative\user\tests\_pages\ProfileSettingsPage;
+use hipstercreative\user\tests\_pages\LoginPage;
+use hipstercreative\user\models\Profile;
 
 $I = new TestGuy($scenario);
 $I->wantTo('ensure that profile settings works');

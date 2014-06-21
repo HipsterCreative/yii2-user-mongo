@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace dektrium\user\controllers;
+namespace hipstercreative\user\controllers;
 
-use dektrium\user\models\UserSearch;
+use hipstercreative\user\models\UserSearch;
 use yii\web\Controller;
 use yii\filters\AccessControl;
 use yii\filters\VerbFilter;
@@ -20,7 +20,7 @@ use yii\web\NotFoundHttpException;
 /**
  * AdminController allows you to administrate users.
  *
- * @property \dektrium\user\Module $module
+ * @property \hipstercreative\user\Module $module
  *
  * @author Dmitry Erofeev <dmeroff@gmail.com
  */
@@ -179,12 +179,12 @@ class AdminController extends Controller
      * Finds the User model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
      * @param  integer                    $id
-     * @return \dektrium\user\models\User the loaded model
+     * @return \hipstercreative\user\models\User the loaded model
      * @throws NotFoundHttpException      if the model cannot be found
      */
     protected function findModel($id)
     {
-        /** @var \dektrium\user\models\User $user */
+        /** @var \hipstercreative\user\models\User $user */
         $user = $this->module->manager->findUserById($id);
         if ($id !== null && $user !== null) {
             return $user;

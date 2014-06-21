@@ -15,7 +15,7 @@ use yii\grid\GridView;
 /**
  * @var yii\web\View $this
  * @var yii\data\ActiveDataProvider $dataProvider
- * @var dektrium\user\models\UserSearch $searchModel
+ * @var hipstercreative\user\models\UserSearch $searchModel
  */
 
 $this->title = Yii::t('user', 'Manage users');

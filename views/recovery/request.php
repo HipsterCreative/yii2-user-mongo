@@ -15,7 +15,7 @@ use yii\widgets\ActiveForm;
 /**
  * @var yii\web\View $this
  * @var yii\widgets\ActiveForm $form
- * @var dektrium\user\forms\PasswordRecoveryRequest $model
+ * @var hipstercreative\user\forms\PasswordRecoveryRequest $model
  */
 
 $this->title = Yii::t('user', 'Recover your password');

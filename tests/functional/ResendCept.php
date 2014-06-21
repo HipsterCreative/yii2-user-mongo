@@ -1,7 +1,7 @@
 <?php
 
-use dektrium\user\tests\_pages\ResendPage;
-use dektrium\user\models\User;
+use hipstercreative\user\tests\_pages\ResendPage;
+use hipstercreative\user\models\User;
 
 $I = new TestGuy($scenario);
 $I->wantTo('ensure that resending of confirmation tokens works');

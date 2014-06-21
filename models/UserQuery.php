@@ -9,7 +9,7 @@
 * file that was distributed with this source code.
 */
 
-namespace dektrium\user\models;
+namespace hipstercreative\user\models;
 
 use yii\mongodb\ActiveQuery;
 

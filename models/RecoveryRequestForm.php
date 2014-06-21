@@ -1,14 +1,14 @@
 <?php
 
-namespace dektrium\user\models;
+namespace hipstercreative\user\models;
 
-use dektrium\user\helpers\ModuleTrait;
+use hipstercreative\user\helpers\ModuleTrait;
 use yii\base\Model;
 
 /**
  * Model for collecting data on password recovery init.
  *
- * @property \dektrium\user\Module $module
+ * @property \hipstercreative\user\Module $module
  *
  * @author Dmitry Erofeev <dmeroff@gmail.com>
  */
@@ -22,7 +22,7 @@ class RecoveryRequestForm extends Model
     public $email;
 
     /**
-     * @var \dektrium\user\models\User
+     * @var \hipstercreative\user\models\User
      */
     private $_user;
 

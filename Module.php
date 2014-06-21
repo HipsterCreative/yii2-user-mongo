@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace dektrium\user;
+namespace hipstercreative\user;
 
 use yii\base\Module as BaseModule;
 
@@ -88,10 +88,10 @@ class Module extends BaseModule
     {
         return [
             'manager' => [
-                'class' => 'dektrium\user\ModelManager'
+                'class' => 'hipstercreative\user\ModelManager'
             ],
             'mailer' => [
-                'class' => 'dektrium\user\Mailer'
+                'class' => 'hipstercreative\user\Mailer'
             ]
         ];
     }

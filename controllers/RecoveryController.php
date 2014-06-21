@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace dektrium\user\controllers;
+namespace hipstercreative\user\controllers;
 
 use yii\web\Controller;
 use yii\filters\AccessControl;
@@ -18,7 +18,7 @@ use yii\base\InvalidParamException;
 /**
  * RecoveryController manages password recovery process.
  *
- * @property \dektrium\user\Module $module
+ * @property \hipstercreative\user\Module $module
  *
  * @author Dmitry Erofeev <dmeroff@gmail.com>
  */

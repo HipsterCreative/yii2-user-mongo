@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace dektrium\user;
+namespace hipstercreative\user;
 
 use yii\base\BootstrapInterface;
 use yii\web\GroupUrlRule;
@@ -31,13 +31,13 @@ class Bootstrap implements BootstrapInterface
             $identityClass = $app->getModule('user')->manager->userClass;
         } else {
             $app->setModule('user', [
-                'class' => 'dektrium\user\Module'
+                'class' => 'hipstercreative\user\Module'
             ]);
-            $identityClass = 'dektrium\user\models\User';
+            $identityClass = 'hipstercreative\user\models\User';
         }
 
         if ($app instanceof \yii\console\Application) {
-            $app->getModule('user')->controllerNamespace = 'dektrium\user\commands';
+            $app->getModule('user')->controllerNamespace = 'hipstercreative\user\commands';
         } else {
             $app->set('user', [
                 'class' => 'yii\web\User',

@@ -1,7 +1,7 @@
 <?php
 
-use dektrium\user\tests\_pages\UpdatePage;
-use dektrium\user\tests\_pages\LoginPage;
+use hipstercreative\user\tests\_pages\UpdatePage;
+use hipstercreative\user\tests\_pages\LoginPage;
 
 $I = new TestGuy($scenario);
 $I->wantTo('ensure that user update works');

@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace dektrium\user\widgets;
+namespace hipstercreative\user\widgets;
 
-use dektrium\user\helpers\ModuleTrait;
+use hipstercreative\user\helpers\ModuleTrait;
 use yii\base\Widget;
 
 /**

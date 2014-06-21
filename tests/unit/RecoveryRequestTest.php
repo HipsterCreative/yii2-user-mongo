@@ -1,10 +1,10 @@
 <?php
 
-namespace dektrium\user\tests;
+namespace hipstercreative\user\tests;
 
 use Codeception\Specify;
-use dektrium\user\models\RecoveryRequestForm;
-use dektrium\user\tests\_fixtures\UserFixture;
+use hipstercreative\user\models\RecoveryRequestForm;
+use hipstercreative\user\tests\_fixtures\UserFixture;
 use yii\codeception\TestCase;
 
 class RecoveryRequestTest extends TestCase
@@ -12,7 +12,7 @@ class RecoveryRequestTest extends TestCase
     use Specify;
 
     /**
-     * @var \dektrium\user\models\RecoveryRequestForm
+     * @var \hipstercreative\user\models\RecoveryRequestForm
      */
     protected $form;
 

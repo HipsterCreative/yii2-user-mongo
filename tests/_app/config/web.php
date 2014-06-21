@@ -6,7 +6,7 @@ return [
     'id' => 'test',
     'basePath' => dirname(__DIR__),
     'bootstrap' => [
-        'dektrium\user\Bootstrap'
+        'hipstercreative\user\Bootstrap'
     ],
     'extensions' => require(VENDOR_DIR . '/yiisoft/extensions.php'),
     'aliases' => [
@@ -15,7 +15,7 @@ return [
     ],
     'modules' => [
         'user' => [
-            'class' => 'dektrium\user\Module',
+            'class' => 'hipstercreative\user\Module',
             'admins' => ['user']
         ]
     ],

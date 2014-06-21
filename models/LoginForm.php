@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace dektrium\user\models;
+namespace hipstercreative\user\models;
 
-use dektrium\user\helpers\ModuleTrait;
+use hipstercreative\user\helpers\ModuleTrait;
 use yii\base\Model;
-use dektrium\user\helpers\Password;
+use hipstercreative\user\helpers\Password;
 
 /**
  * LoginForm is the model behind the login form.
  *
- * @property \dektrium\user\Module $module
+ * @property \hipstercreative\user\Module $module
  *
  * @author Dmitry Erofeev <dmeroff@gmail.com>
  */
@@ -42,7 +42,7 @@ class LoginForm extends Model
     public $rememberMe = false;
 
     /**
-     * @var \dektrium\user\models\User
+     * @var \hipstercreative\user\models\User
      */
     protected $user;
 

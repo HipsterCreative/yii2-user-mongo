@@ -10,8 +10,8 @@ modules:
         FixtureHelper:
             fixtures:
                 user:
-                    class: dektrium\user\tests\_fixtures\UserFixture
+                    class: hipstercreative\user\tests\_fixtures\UserFixture
                     dataFile: @tests/_fixtures/init_user.php
                 profile:
-                    class: dektrium\user\tests\_fixtures\ProfileFixture
+                    class: hipstercreative\user\tests\_fixtures\ProfileFixture
                     dataFile: @tests/_fixtures/init_profile.php

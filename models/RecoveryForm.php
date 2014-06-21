@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace dektrium\user\models;
+namespace hipstercreative\user\models;
 
-use dektrium\user\helpers\ModuleTrait;
+use hipstercreative\user\helpers\ModuleTrait;
 use yii\base\InvalidParamException;
 use yii\base\Model;
 
 /**
  * Model for collecting data on password recovery.
  *
- * @property \dektrium\user\Module $module
+ * @property \hipstercreative\user\Module $module
  *
  * @author Dmitry Erofeev <dmeroff@gmail.com>
  */
@@ -42,7 +42,7 @@ class RecoveryForm extends Model
     public $token;
 
     /**
-     * @var \dektrium\user\models\User
+     * @var \hipstercreative\user\models\User
      */
     private $_user;
 

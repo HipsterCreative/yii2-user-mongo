@@ -9,14 +9,14 @@
 * file that was distributed with this source code.
 */
 
-namespace dektrium\user\models;
+namespace hipstercreative\user\models;
 
 use yii\base\Model;
 
 /**
  * Model that manages resending confirmation tokens to users.
  *
- * @property \dektrium\user\Module $module
+ * @property \hipstercreative\user\Module $module
  *
  * @author Dmitry Erofeev <dmeroff@gmail.com>
  */
@@ -28,7 +28,7 @@ class ResendForm extends Model
     public $email;
 
     /**
-     * @var \dektrium\user\models\User
+     * @var \hipstercreative\user\models\User
      */
     private $_user;
 
@@ -74,7 +74,7 @@ class ResendForm extends Model
     }
 
     /**
-     * @return \dektrium\user\models\User
+     * @return \hipstercreative\user\models\User
      */
     public function getUser()
     {
@@ -86,7 +86,7 @@ class ResendForm extends Model
     }
 
     /**
-     * @return null|\dektrium\user\Module
+     * @return null|\hipstercreative\user\Module
      */
     protected function getModule()
     {

@@ -1,7 +1,7 @@
 <?php
 
 use yii\helpers\Url;
-use dektrium\user\models\User;
+use hipstercreative\user\models\User;
 
 $I = new TestGuy($scenario);
 $I->wantTo('ensure that confirmation works');

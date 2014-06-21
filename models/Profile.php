@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace dektrium\user\models;
+namespace hipstercreative\user\models;
 
-use dektrium\user\helpers\ModuleTrait;
+use hipstercreative\user\helpers\ModuleTrait;
 use yii\mongodb\ActiveRecord;
 
 /**
@@ -122,6 +122,6 @@ class Profile extends ActiveRecord
      */
     public function getUser()
     {
-        return $this->hasOne('\dektrium\user\models\User', ['_id' => 'user_id']);
+        return $this->hasOne('\hipstercreative\user\models\User', ['_id' => 'user_id']);
     }
 }

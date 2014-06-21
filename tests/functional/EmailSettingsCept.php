@@ -1,8 +1,8 @@
 <?php
 
-use dektrium\user\tests\_pages\EmailSettingsPage;
-use dektrium\user\tests\_pages\LoginPage;
-use dektrium\user\models\User;
+use hipstercreative\user\tests\_pages\EmailSettingsPage;
+use hipstercreative\user\tests\_pages\LoginPage;
+use hipstercreative\user\models\User;
 use yii\helpers\Html;
 
 $I = new TestGuy($scenario);

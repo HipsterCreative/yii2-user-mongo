@@ -11,12 +11,12 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
-use dektrium\user\widgets\Connect;
+use hipstercreative\user\widgets\Connect;
 
 /**
  * @var yii\web\View $this
  * @var yii\widgets\ActiveForm $form
- * @var dektrium\user\models\LoginForm $model
+ * @var hipstercreative\user\models\LoginForm $model
  */
 
 $this->title = Yii::t('user', 'Sign in');

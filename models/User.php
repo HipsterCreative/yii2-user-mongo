@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace dektrium\user\models;
+namespace hipstercreative\user\models;
 
-use dektrium\user\helpers\ModuleTrait;
-use dektrium\user\helpers\Password;
+use hipstercreative\user\helpers\ModuleTrait;
+use hipstercreative\user\helpers\Password;
 use yii\base\NotSupportedException;
 use yii\behaviors\TimestampBehavior;
 use yii\mongodb\ActiveRecord;
@@ -48,7 +48,7 @@ use yii\web\IdentityInterface;
  * @property boolean $isRecoveryPeriodExpired
  * @property boolean $isBlocked
  *
- * @property \dektrium\user\Module $module
+ * @property \hipstercreative\user\Module $module
  *
  * @author Dmitry Erofeev <dmeroff@gmail.com>
  */

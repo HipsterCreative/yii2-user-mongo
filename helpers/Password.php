@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace dektrium\user\helpers;
+namespace hipstercreative\user\helpers;
 
 use yii\helpers\Security;
 

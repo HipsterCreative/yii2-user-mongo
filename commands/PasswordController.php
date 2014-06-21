@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace dektrium\user\commands;
+namespace hipstercreative\user\commands;
 
 use yii\console\Controller;
 use yii\helpers\Console;
 
 /**
- * @property \dektrium\user\Module $module
+ * @property \hipstercreative\user\Module $module
  *
  * @author Dmitry Erofeev <dmeroff@gmail.com>
  */

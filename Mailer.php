@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace dektrium\user;
+namespace hipstercreative\user;
 
-use dektrium\user\models\User;
+use hipstercreative\user\models\User;
 use yii\base\Component;
 
 /**

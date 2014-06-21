@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace dektrium\user\widgets;
+namespace hipstercreative\user\widgets;
 
 use yii\authclient\ClientInterface;
 use yii\authclient\widgets\AuthChoice;

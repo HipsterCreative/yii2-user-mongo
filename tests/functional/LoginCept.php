@@ -1,6 +1,6 @@
 <?php
 
-use dektrium\user\tests\_pages\LoginPage;
+use hipstercreative\user\tests\_pages\LoginPage;
 
 $I = new TestGuy($scenario);
 $I->wantTo('ensure that login works');

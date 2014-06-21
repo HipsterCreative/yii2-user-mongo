@@ -15,8 +15,8 @@ use yii\widgets\ActiveForm;
 /**
  * @var yii\web\View $this
  * @var yii\widgets\ActiveForm $form
- * @var dektrium\user\models\User $model
- * @var dektrium\user\models\Account $account
+ * @var hipstercreative\user\models\User $model
+ * @var hipstercreative\user\models\Account $account
  */
 
 $this->title = Yii::t('user', 'Connect your account to {0}', $account->provider);

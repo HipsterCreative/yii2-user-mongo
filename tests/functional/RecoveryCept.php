@@ -1,10 +1,10 @@
 <?php
 
-use dektrium\user\tests\_pages\RecoveryPage;
-use dektrium\user\tests\_pages\LoginPage;
+use hipstercreative\user\tests\_pages\RecoveryPage;
+use hipstercreative\user\tests\_pages\LoginPage;
 use yii\helpers\Html;
 use yii\helpers\Url;
-use dektrium\user\models\User;
+use hipstercreative\user\models\User;
 
 $I = new TestGuy($scenario);
 $I->wantTo('ensure that password recovery works');
