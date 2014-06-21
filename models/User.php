@@ -121,7 +121,7 @@ class User extends ActiveRecord implements IdentityInterface
 
 
     /**
-     * @return \yii\db\ActiveQuery
+     * @return \yii\mongodb\ActiveQuery
      */
     public function getProfile()
     {
@@ -129,7 +129,7 @@ class User extends ActiveRecord implements IdentityInterface
     }
 
     /**
-     * @return \yii\db\ActiveQuery
+     * @return \yii\mongodb\ActiveQuery
      */
     public function getAccounts()
     {
@@ -341,13 +341,13 @@ class User extends ActiveRecord implements IdentityInterface
             throw new \RuntimeException('Calling "'.__CLASS__.'::register()" on existing user');
         }
 
-        //if ($this->validate()) {
+        if ($this->validate()) {
             $this->beforeRegister();
             if ($this->save(false)) {
                 $this->afterRegister();
                 return true;
             }
-        //}
+        }
 
         return false;
     }

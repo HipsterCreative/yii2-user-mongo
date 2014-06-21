@@ -23,9 +23,9 @@ use yii\base\Component;
  * @method models\LoginForm           createLoginForm
  * @method models\RecoveryForm        createPasswordRecoveryForm
  * @method models\RecoveryRequestForm createPasswordRecoveryRequestForm
- * @method \yii\db\ActiveQuery        createUserQuery
- * @method \yii\db\ActiveQuery        createProfileQuery
- * @method \yii\db\ActiveQuery        createAccountQuery
+ * @method \yii\mongodb\ActiveQuery   createUserQuery
+ * @method \yii\mongodb\ActiveQuery   createProfileQuery
+ * @method \yii\mongodb\ActiveQuery   createAccountQuery
  *
  * @author Dmitry Erofeev <dmeroff@gmail.com>
  */
@@ -148,7 +148,7 @@ class ModelManager extends Component
      * Finds a user
      *
      * @param  $condition
-     * @return \yii\db\ActiveQuery
+     * @return \yii\mongodb\ActiveQuery
      */
     public function findUser($condition)
     {
@@ -172,7 +172,7 @@ class ModelManager extends Component
      *
      * @param  mixed $condition
      *
-     * @return \yii\db\ActiveQuery
+     * @return \yii\mongodb\ActiveQuery
      */
     public function findProfile($condition)
     {

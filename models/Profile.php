@@ -118,7 +118,7 @@ class Profile extends ActiveRecord
     }
 
     /**
-     * @return \yii\db\ActiveQueryInterface
+     * @return \yii\mongodb\ActiveQueryInterface
      */
     public function getUser()
     {
