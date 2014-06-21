@@ -1,19 +1,18 @@
 {
-    "name": "dektrium/yii2-user",
+    "name": "hipstercreative/yii2-user-mongo",
     "description": "Flexible user registration and authentication module for Yii2",
-    "keywords": ["yii2", "yii2-user", "user management", "dektrium"],
+    "keywords": ["yii2", "yii2-user-mongo", "user management", "hipstercreative", "hipster", "mongodb", "mongo"],
     "type": "yii2-extension",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/dektrium/yii2-user/issues?state=open",
-        "forum": "https://gitter.im/dektrium/yii2-user",
-        "source": "https://github.com/dektrium/yii2-user"
+        "issues": "https://github.com/hipstercreative/yii2-user-mongo/issues?state=open",
+        "source": "https://github.com/hipstercreative/yii2-user-mongo"
     },
     "authors": [
         {
-            "name": "Dmitry Erofeev",
-            "email": "dmeroff@gmail.com",
-            "homepage": "http://dmeroff.ru"
+            "name": "Lee Hilton",
+            "email": "lee.hilton@hipstercreative.com",
+            "homepage": "http://hipstercreative.com"
         }
     ],
     "minimum-stability": "dev",
@@ -30,10 +29,10 @@
     },
     "autoload": {
         "psr-4": {
-            "dektrium\\user\\": ""
+            "hipstercreative\\user\\": ""
         }
     },
     "extra": {
-        "bootstrap": "dektrium\\user\\Bootstrap"
+        "bootstrap": "hipstercreative\\user\\Bootstrap"
     }
 }

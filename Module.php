@@ -14,7 +14,7 @@ namespace dektrium\user;
 use yii\base\Module as BaseModule;
 
 /**
- * This is the main module class for the Yii2-user.
+ * This is the main module class for the Yii2-user-mongo.
  *
  * @property ModelManager $manager
  * @property Mailer       $mailer
