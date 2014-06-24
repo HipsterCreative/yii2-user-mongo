@@ -76,7 +76,7 @@ class RecoveryController extends Controller
     {
         try {
             $model = $this->module->manager->createRecoveryForm([
-                'id' => $id,
+                '_id' => $id,
                 'token' => $token
             ]);
         } catch (InvalidParamException $e) {

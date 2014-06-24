@@ -34,7 +34,7 @@ class RecoveryForm extends Model
     /**
      * @var integer
      */
-    public $id;
+    public $_id;
 
     /**
      * @var string
