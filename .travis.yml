@@ -6,6 +6,7 @@ services: mongodb
 install:
   - composer install --prefer-dist --dev
   - composer require --dev "codeception/codeception:2.0.0-beta"
+  - composer require --dev "guzzlehttp/guzzle:4.0.2" --no-interaction --no-update
   - gem install mailcatcher
 before_script:
   - mailcatcher
