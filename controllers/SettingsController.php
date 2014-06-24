@@ -136,7 +136,7 @@ class SettingsController extends Controller
      */
     public function actionPassword()
     {
-        $model = $this->module->manager->findUser(['id' => \Yii::$app->user->identity->getId()])->one();
+        $model = $this->module->manager->findUser(['_id' => \Yii::$app->user->identity->getId()])->one();
         $model->scenario = 'update_password';
 
         if ($model->load(\Yii::$app->getRequest()->post()) && $model->save()) {
