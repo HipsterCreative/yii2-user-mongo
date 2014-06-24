@@ -2,14 +2,16 @@ language: php
 php:
   - 5.5
   - 5.4
+services: mongodb
 install:
   - composer install --prefer-dist --dev
   - composer require --dev "codeception/codeception:2.0.0-beta"
   - gem install mailcatcher
 before_script:
   - mailcatcher
-  - mysql -e 'create database hipstercreative_test;'
+  - echo "extension=mongo.so" >> `php --ini | grep "Loaded Configuration" | sed -e "s|.*:\s*||"`
+  - sleep 15
+  - mongo hipstercreative_test --eval 'db.addUser("travis", "test");'
   - sed -i 's/\/..\/..\/..\//\/..\//g' tests/_bootstrap.php
-  - php tests/yii migrate/up --interactive=0
   - vendor/bin/codecept build
 script: vendor/bin/codecept run

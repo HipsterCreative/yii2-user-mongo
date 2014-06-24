@@ -1,6 +1,6 @@
 <?php
 
-$db = require __DIR__ . '/db.php';
+$mongodb = require __DIR__ . '/mongodb.php';
 
 return [
     'id' => 'test',
@@ -28,7 +28,7 @@ return [
         'request' => [
             'enableCsrfValidation' => false
         ],
-        'db' => $db,
+        'db' => $mongodb,
         'mail' => [
             'transport' => [
                 'class' => 'Swift_SmtpTransport',
