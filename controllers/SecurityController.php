@@ -120,7 +120,7 @@ class SecurityController extends Controller
             $account->save(false);
         }
 
-        if (null === ($user = $account->user)) {
+        if (null === ($user = $account->getUser()->one())) {
             $this->action->successUrl = Url::to(['/user/registration/connect', 'account_id' => (string)$account->_id]);
         } else {
             \Yii::$app->user->login($user, $this->module->rememberFor);
