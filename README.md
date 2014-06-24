@@ -2,6 +2,8 @@
 
 **NOTE**: This conversion is still ongoing, there are many things untested. If you find issues, please report them and we'll do our best to address them quickly. Development assistance would also be appriciated.
 
+As of June 21, 2014 all basic features appear to be working.
+
 ___
 
 This addon was forked from [dektrium/yii2-user](https://github.com/dektrium/yii2-user), based on their version 0.6.0 and their [last June 17th 2014 commit](https://github.com/dektrium/yii2-user/commit/d36b851c8c913db4572faacedfc21b79f93b8834)
