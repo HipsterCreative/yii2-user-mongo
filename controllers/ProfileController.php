@@ -68,7 +68,7 @@ class ProfileController extends Controller
      */
     public function actionShow($id)
     {
-        $profile = $this->module->manager->findProfileById($id);
+        $profile = $this->module->manager->findProfileById( new \MongoId($id) );
 
         if ($profile === null) {
             throw new NotFoundHttpException;
