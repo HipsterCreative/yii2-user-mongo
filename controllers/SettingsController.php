@@ -156,7 +156,7 @@ class SettingsController extends Controller
      */
     public function actionNetworks()
     {
-        $user = $this->module->manager->findUser(['id' => \Yii::$app->user->id])->with('accounts')->one();
+        $user = $this->module->manager->findUser(['_id' => \Yii::$app->user->id])->with('accounts')->one();
 
         return $this->render('accounts', [
             'user' => $user
