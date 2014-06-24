@@ -8,7 +8,7 @@ install:
   - gem install mailcatcher
 before_script:
   - mailcatcher
-  - mysql -e 'create database dektrium_test;'
+  - mysql -e 'create database hipstercreative_test;'
   - sed -i 's/\/..\/..\/..\//\/..\//g' tests/_bootstrap.php
   - php tests/yii migrate/up --interactive=0
   - vendor/bin/codecept build
