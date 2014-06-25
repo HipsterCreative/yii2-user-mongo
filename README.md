@@ -25,6 +25,50 @@ Most of web applications provide a way for users to register, log in or reset th
 Yii2-user documentation is available online: [Read the documentation](http://yii2-user.readthedocs.org/en/latest/).
 Installation instructions are located in [installation guide](http://yii2-user.readthedocs.org/en/latest/getting-started/installation.html).
 
+## Documentation - Mongo version specific
+
+### Installation
+
+Add Yii2-user-mongo to the require section of your composer.json file:
+
+<pre>
+{
+     "require": {
+         "hipstercreative/yii2-user-mongo": "*"
+     }
+}
+</pre>
+
+And run following command to make **composer** download and install Yii2-user:
+
+<pre>$ php composer.phar update</pre>
+
+There is currently no database schema / migration needed.
+
+## Configuration
+
+Currently the configuration options match the Yii2-user project. The **class** defintion changes a bit.
+
+The configuration is done in the application’s **config/web.php** file. Notice that the class is now **hipstercreative\user\Module** instead of the dektrium namespace.
+
+<pre>
+<?php return [
+    ...
+    'modules' => [
+        ...
+        'user' => [
+            'class' => 'hipstercreative\user\Module',
+            'allowUnconfirmedLogin' => true,
+            'confirmWithin' => 21600,
+            'cost' => 12,
+            'admins' => ['admin']
+        ],
+        ...
+    ],
+    ...
+];
+</pre>
+
 ## Contributing
 
 Contributing instructions are located in [CONTRIBUTING.md](CONTRIBUTING.md) file.
